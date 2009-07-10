@@ -5,7 +5,7 @@ function traverse(w) {
     for (var z = 0; z < l.length; z++) {
       var c = l[z];
       if (c.getAttribute('rev') == 'canonical') {
-        return "http://twitter.com/home?status= " + c.getAttribute('href');
+        return 'http://twitter.com/home?status= ' + c.getAttribute('href');
       }
     }
     for (var i = 0; i < w.frames.length; i++) {
